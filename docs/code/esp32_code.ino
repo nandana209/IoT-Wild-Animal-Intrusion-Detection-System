@@ -7,15 +7,14 @@
 #include <Firebase_ESP_Client.h>
 #include <addons/TokenHelper.h>
 #include <addons/RTDBHelper.h>
-#define WIFI_SSID "WildSense"
-#define WIFI_PASSWORD "1234"
-#define API_KEY "AIzaSyD8L3KvO9XXmLw5uo2PhE5xM5V0a3xGhRI"
-#define DATABASE_URL "https://wildsense-f4d32-default-rtdb.asia-
-southeast1.firebasedatabase.app/"
+#define WIFI_SSID ""
+#define WIFI_PASSWORD ""
+#define API_KEY ""
+#define DATABASE_URL ""
 #define rxPin 18
 #define txPin 19
 HardwareSerial sim800(1);
-String PHONE = "+919567383456";
+String PHONE = "";
 FirebaseData fbdo;
 FirebaseAuth auth;
 FirebaseConfig config;
