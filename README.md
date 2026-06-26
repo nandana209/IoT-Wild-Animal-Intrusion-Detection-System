@@ -2,9 +2,10 @@
 
 ## Overview
 
-This project presents an IoT-based Wild Animal Intrusion Detection System developed using Raspberry Pi 5, ESP32, TensorFlow Lite, and Firebase.
-
-The system detects wild animals entering agricultural areas and automatically activates deterrent mechanisms such as flashing lights and buzzer alerts. A companion Android application enables remote monitoring and control.
+This project presents an Internet of Things (IoT)-based Wild Animal Intrusion Detection System designed to protect agricultural fields from damage caused by wild animal attacks. The system is developed using Raspberry Pi 5, ESP32 microcontroller, TensorFlow Lite, and Firebase to provide an intelligent, real-time monitoring solution.
+A camera connected to the Raspberry Pi continuously captures images and uses a TensorFlow Lite-based machine learning model to identify and classify wild animals entering the monitored area. Upon detecting an intrusion, the system automatically triggers deterrent mechanisms such as flashing lights and buzzer alarms to scare the animals away and minimize crop damage. 
+The ESP32 module facilitates communication between different hardware components, while Firebase serves as a cloud platform for storing and synchronizing data in real time. 
+Additionally, a companion Android application has been developed to enable farmers to remotely monitor intrusion events, receive instant notifications, and manually control the deterrent devices from anywhere, thereby enhancing the efficiency and reliability of agricultural field protection.
 
 ## Features
 
